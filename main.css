@@ -41,6 +41,32 @@
     height: 120px;
 }
 
+.main-image {
+    display: flex;
+    padding-left: 3rem;
+}
+
+.main-content-right {
+    font-size: 19.1px;
+    text-align: center;
+    width: 10rem;
+    padding: 1rem 1rem;
+    background: #bd1d20;
+    border: 3px solid #bd1d20;
+    border-radius: 5px;
+    color: beige;
+    margin: 0.375rem; 
+    text-align: left;
+
+}
+
+.main-content-title {
+    font-size: 1.5rem;
+    border-bottom: 0.5px solid;
+    margin-bottom: 10px;
+}
+
+
 
 
 
