@@ -5,16 +5,14 @@
 .container {
     max-width: 77%;
     margin: 0 auto;
-    /* margin: 0px 60px 60px 60px; */
 }
 
-/* Navigtion Bar begin */
+/* Header Begin */
 
 .nav-links {
     display: flex;
     text-decoration: none;
     list-style: none;
-    column-gap: 75px;
     padding: 0;
 }
 
@@ -28,8 +26,9 @@
     text-decoration: none;
     color: black;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
     white-space: nowrap;
+    font-family: 'Oxygen', sans-serif;
 }
 
 .nav-links :hover {
@@ -66,13 +65,151 @@
     margin-bottom: 10px;
 }
 
+hr {
+    border: none;
+    height: 3px;
+    color: #333; 
+    background-color: #333; 
+}
 
+/* For verticle lines between nav links */
 
+.navbar-flex li{
+    display: flex;
+    position: relative;
+    float: right;
+    padding: 0 30px;
+}
 
+.navbar-flex ul li::after {
+    position: absolute;
+    width: 2px;
+    right: 0;
+    content: ' ';
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
 
+.no-divider::after{
+    display: none;
+}
 
+/* End of verticle lines css */
 
+.login-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 52%;
+    padding-top: 10px;
+}
 
+.login-section ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 500px;
+    color: black;
+}
 
+.login-section ul li {
+    list-style-type: none;
+}
 
-/* Navigation Bar End */
+.login-section ul {
+    display: flex;
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: 6px;
+    padding: 9px;
+    column-gap: 0px;
+    background-color: rgb(208, 208, 208);
+}
+
+.login-section li{
+    display: flex;
+    position: relative;
+    float: right;
+    padding: 0px 10px 0px 10px;
+}
+
+.login-section ul li::after {
+    position: absolute;
+    width: 2px;
+    right: 0;
+    content: ' ';
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.login-section :hover {
+    color: white;    
+}
+
+/* Header End */
+
+/* Footer Start */
+
+hr {
+    border: none;
+    height: 3px;
+    color: #333; 
+    background-color: #333; 
+}
+
+/* For verticle lines between nav links */
+
+.footer-flex li{
+    display: flex;
+    position: relative;
+    float: right;
+    padding: 0 30px;
+}
+
+.footer-flex ul li::after {
+    position: absolute;
+    width: 2px;
+    right: 0;
+    content: ' ';
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    transform: rotate(90deg);
+}
+
+.no-divider::after{
+    display: none;
+}
+
+.footer-links {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    white-space: nowrap;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.footer-links :hover {
+    color: rgb(155, 155, 155);    
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    font-family: 'Oxygen', sans-serif;
+    color: rgb(190, 190, 190);
+}
+
+/* Footer End */
