@@ -1,3 +1,52 @@
-.testcss {
-    text-align: center;
+.body {
+    margin: 0;
 }
+
+.container {
+    max-width: 77%;
+    margin: 0 auto;
+    /* margin: 0px 60px 60px 60px; */
+}
+
+/* Navigtion Bar begin */
+
+.nav-links {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    column-gap: 75px;
+    padding: 0;
+}
+
+.navbar-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.nav-links :hover {
+    color: rgb(155, 155, 155);    
+}
+
+.nav-logo {
+    display: flex;
+    height: 120px;
+}
+
+
+
+
+
+
+
+
+
+/* Navigation Bar End */
