@@ -1,0 +1,127 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+  
+  .wwd-left-column {
+    background-color: rgb(148, 47, 47);
+    height: 60rem;
+    width: 15rem;
+    color: rgb(216, 216, 216);
+    padding: 0px 5px 0px 10px;
+    font-size: 18.5px;
+    font-family: 'Oxygen';
+    align-items: left;
+    width: 20%;
+    justify-content: end;
+    margin-top: 50px;
+    margin-bottom: 5rem;
+  }
+  
+  .left-column {
+    height: 500px;
+    margin-top: 15px;
+    margin: 15px;
+    align-items: left;
+  }
+
+  .main-image {
+    height: 500px;
+    padding-left: 0px;
+  }
+
+  .what-we-do-header {
+    text-align: left;
+    border-bottom: solid .5px;
+    padding-bottom: 3px;
+    margin-top: 30px;
+    font-family: 'Oxygen';
+    font-size: 25px;
+    margin-left: 5px;
+  }
+
+  .what-we-do-content {
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .what-we-do-content-right {
+    margin-bottom: 5px;
+    font-family: 'Oxygen';
+    font-size: 25px;
+    justify-content: end;
+    padding-left: 30px;
+    margin-top: 0px;
+  }
+
+  .wwd-right-column {
+    width: 80%;
+    margin-bottom: 40px;
+  }
+
+
+
+  /* images start */
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+  
+  .top-left-column {
+    margin: 5px;
+    padding-left: 50px;
+  }
+  
+  .blue-columns {
+    padding-left: 0px;
+  }
+  
+  .bottom-right-column {
+    margin: 5px;
+    padding-left: 50px;
+  }
+
+
+  /* images end */
+  .sub-image {
+    height: 190px;
+  }
+
+  .wwd-tags {
+    padding-left: 25px;
+    font-size: 18px;
+    margin: 3px;
+  }
+
+  .wwd-headers {
+    padding-left: 10px;
+  }
+
+  .what-image {
+    height: 120px;
+    padding-left: 15px;
+  }
+
+  .attorneys {
+    margin-bottom: 15px;
+  }

@@ -246,6 +246,7 @@ hr {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
   }
   
   .column {
@@ -257,12 +258,13 @@ hr {
   
   .right-column {
     background-color: rgb(148, 47, 47);
-    height: auto;
+    height: 31rem;
     width: 10rem;
-    color: white;
+    color: rgb(216, 216, 216);
     margin-top: 15px;
-    padding: 0px 10px 0px 10px;
-    font-size: 20px;
+    padding: 0px 5px 0px 10px;
+    font-size: 18.5px;
+    font-family: 'Oxygen';
   }
   
   .left-column {
@@ -274,6 +276,7 @@ hr {
 
   .main-image {
     height: 500px;
+    padding-left: 0px;
   }
 
   .feed-header {
@@ -281,10 +284,11 @@ hr {
     border-bottom: solid .5px;
     padding-bottom: 3px;
     margin: 10 10px 10px 0px;
+    font-family: 'Oxygen';
   }
 
   .feed-content {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
 
   /* HALFWAY CONTENT */
@@ -304,33 +308,58 @@ hr {
   
   .right-column2 {
     height: auto;
-    width: 10rem;
+    width: 13rem;
     color: rgb(0, 0, 0);
-    margin-top: 15px;
+    margin-top: 20px;
     padding: 0px 10px 0px 10px;
-    font-size: 20px;
-    margin-left: 175px;
+    font-size: 22px;
+    margin-left: 220px;
+    margin-bottom: 0px;
+    font-weight: 400;
   }
   
   .left-column2 {
     height: auto;
-    margin-top: 15px;
+    margin-top: 0px;
     margin: 15px;
     max-width: 80%;
+    margin-left: 200px;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Oxygen';
   }
 
   .main-image2 {
-    height: 500px;
+    margin: 
+  }
+
+  .main-image-header {
     margin-left: 100px;
+    font-size: x-large;
+    margin: 0px;
+    padding-top: 10px;
+    font-family: 'Oxygen';
   }
 
   .feed-header2 {
     text-align: left;
     padding-bottom: 3px;
     margin: 0px;
+    font-family: 'Oxygen';
   }
 
   .feed-content2 {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     margin-top: 0px;
+    list-style-type: none;
+    font-family: 'Oxygen';
   }
+
+  .content-email {
+    list-style-type: none;
+    margin: 0px;
+  }
+
+  * {
+    box-sizing: border-box;
+}
